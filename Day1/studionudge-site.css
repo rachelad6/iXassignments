@@ -1,0 +1,101 @@
+#menu a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-family:arial;
+}
+
+#menu {
+	background-color: white;
+	height: 90px;
+	margin: 3px solid black;
+	position: fixed;
+	margin-top: 0px;
+	padding-top: none;
+	top: 0px;
+}
+
+#menu a:hover {
+	color:orange;
+}
+
+#menu li {
+	margin: 5px;
+	list-style: none;
+	display:inline-block;
+	font-color: black;
+	align:right;
+}
+
+#menuImg {
+	height: 22px;
+	width: 27px;
+}
+
+#menuImg2 {
+	height: 22px;
+	width:28px;
+}
+
+.rightList {
+	font-family: Arial;
+	padding: 10px;
+	float: right;
+}
+
+#menuImg3 {
+	height: 45px;
+	width: 450px;
+}
+
+.bigpic {
+	background: url(http://demo.wpzoom.com/delicio-simple/files/2016/04/reservation.jpg);
+	background-size: cover;
+	height: 800px;
+}
+
+h1 {
+	color: white;
+	align: center;
+	padding-top: 200px;
+	position: center;
+	font-size: 70px;
+}
+
+#underRes {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+#button {
+	background-color: orange;
+	height: 50px;
+	width: 200px;
+	align: center;
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-family: arial;
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+#bottom {
+	background-color: #262626;
+	height: 500px;
+	color: white;
+	font-family: Arial;
+}
+
+td {
+	padding: 85px;
+}
+
+.grey {
+	color: #8c8c8c;
+}
+
+.orange {
+	color: orange;
+}
