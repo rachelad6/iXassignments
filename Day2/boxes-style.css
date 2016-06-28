@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+	transition: .5s all ease;
+}
+
+.bigBox {
+	background: none;
+	width: 100%;
+}
+
+.bigBox > div {
+	margin: 2%;
+	background: cornflowerblue;
+	padding: 5%;
+	display: inline­block;
+	width: 40%;
+	border: 4px solid green;
+}
+
+div:nth-child(1n+3) {
+	background-color: pink;
+}
+
+div > div > div {
+	border-radius: 100%;
+	background: red;
+	border: 2px solid red;
+	height: 20px;
+	width: 20px;
+	margin-left: 60px;
+}
+
+checkbox input:checked {
+	background-color: orange;
+}
