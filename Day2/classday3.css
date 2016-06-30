@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0px auto;
+	max-width: 1000px;
+}
+
+.box {
+	width: 25%;
+	display: block;
+	height: 300px;
+	float: left;
+}
+
+.box1 {
+	border: 2px solid green;
+}
+
+.box2 {
+	border: 2px solid orange;
+}
+
+.box3 {
+	border: 2px solid red;
+}
+
+.box4 {
+	border: 2px solid blue;
+}
+
+@media(max-width: 768px) {
+	.box {
+		width: 50%;
+	}
+}
+
+@media(max-width: 480px) {
+	.box {
+		width: 100%;
+	}
+}
