@@ -1,0 +1,298 @@
+.top {
+	width: 100%;
+	height:690px;
+	background-image: url(bridgepic.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: 0;
+}
+
+ul {
+	float: left;
+	display: inline-block;
+	font-family: arial;
+	list-style-type: none;
+}
+
+li {
+	width: 120px;
+	display: inline-block;
+	color: white;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	border-bottom: 1.5px solid #00cdcd;
+	font-family: arial;
+	text-align: right;
+}
+
+a:hover {
+	border-bottom: 2px solid white;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+
+.title {
+	text-align: center;
+	height: 600px;
+	width: 700px;
+}
+
+.bigname {
+	width: 500px;
+	padding-top: 150px;
+	padding-left: 80px;
+	position: relative;
+}
+
+.byline {
+	margin-top: -7px;
+	margin-left: 280px;
+	position: absolute;
+	color: #00cdcd;
+	font-family: arial;
+	font-size: 27px;
+}
+
+.more {
+	margin-left: 485px;
+	margin-top: 35px;
+	color: #00cdcd;
+	font-family: arial;
+	font-size: 22px;
+	padding-top: 0px;
+}
+
+.about {
+	height: 700px;
+	background: #00cdcd;;
+}
+
+.about .Abouttab {
+	color: #00cdcd;
+	font-weight: bold;
+}
+
+.menufixed {
+	height: 90px;
+	border: 1px solid black;
+	background: white;
+}
+
+.menufixed ul {
+	float: right;
+	padding-top: 8px;
+}
+
+.menufixed a {
+	color: black;
+	border-bottom: 2px solid #00cdcd;
+}
+
+.menufixed a:hover {
+	border-bottom: 2px solid black;
+}
+
+.menufixed img {
+	width: 240px;
+	height: 90px;
+}
+
+.schoolpic {
+	width: 33.33%;
+	float: left;
+	margin: 100px auto;
+}
+
+.edupic {
+	width: 400px;
+	height: 400px;
+}
+
+.edupic:hover {
+	background: grey;
+}
+
+.exp {
+	background: white;
+	height: 700px;
+}
+
+.exp .Exptab {
+	color: #00cdcd;
+	font-weight: bold;
+}
+
+.resume a {
+	border-bottom: 0px solid white;
+}
+
+.jobpic img {
+	width: 350px;
+	border: 2px solid black;
+	margin: 20px auto;
+}
+
+.wes {
+	margin-top: 10px;
+}
+
+
+.job {
+	display: block;
+	height: 180px;
+}
+
+.kellogg {
+	height: 150px;
+}
+
+.kellogginfo {
+	margin-top: 15px;
+}
+
+.backpack {
+	height: 250px;
+}
+
+.bpinfo {
+	padding-top: -10px;
+	padding-bottom: 30px;
+}
+
+/*.PSP {
+	height: 250px;
+	border: 2px solid orange;
+	display: block;
+}
+
+.PSPpic{
+	border: 2px solid red;
+	float: left;
+	width: 60%;
+}
+
+.PSPinfo {
+	float: left;
+	width: 500px;
+	border: 2px solid green;*/
+}
+
+.jobpic {
+	width: 40%;
+	float: left;
+}
+
+.expinfo {
+	width: 60%;
+	float: right;
+}
+
+.expinfo h5 {
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 24px;
+	color: #00cdcd;
+	text-align: center;
+	margin-top: -160px;
+	text-decoration: underline
+	padding: 0px;
+}
+
+.expinfo p { 
+	font-family: arial;
+	color: black;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 3px;
+	text-align: left;
+	padding: 3px;
+	margin-top: -20px;
+}
+
+.causes {
+	height: 800px;
+	color: #d3d3d3;
+}
+
+.causes .menufixed {
+	margin-top: 60px;
+}
+
+.causes .CausesTab {
+	color: #00cdcd;
+	font-weight: bold;
+}
+
+.media {
+	height: 730px;
+	background-color: #00cdcd;
+}
+
+.media .MediaTab {
+	color: #00cdcd;
+	font-weight: bold;
+}
+
+.media .menufixed {
+	background-color: white;
+}
+
+.icons li {
+	padding: 55px;
+	padding-top: 70px;
+}
+
+.icons li a:hover {
+	bottom-border: 6px solid green;
+}
+
+.media .icons img {
+	width: 140px;
+}
+
+.media .icons table {
+	padding-top: 100px;
+	margin: 0px auto;
+}
+.icons tr td {
+	width: 25%;
+	padding: 20px;
+}
+
+.media .icons p {
+	font-family: Arial;
+	font-weight: bold;
+}
+ .phone {
+ 	font-size: 20px;
+ 	text-align: right;
+ 	margin-right: -10px;
+ }
+
+ .email {
+ 	font-size: 16px;
+ 	text-align: left;
+ 	margin-left: -100px;
+ }
+
+/*@media(max-width:992px) {
+	a {
+		font-size: 15px;
+	}
+	a:hover {
+		font-size:17px;
+	}
+	li {
+		width: 80px;
+	}
+	.bigname {
+		width: 300px;
+		padding-left: 40px;
+	}
+}*/
