@@ -49,7 +49,7 @@ function longestWord(sentence) {
 function palindrome(word) {
    var palindrome = true;
    for(var i=0; i<word.length; i++) {
-       for(j=i+1; j<word.length; j++) {
+       for(var j=i+1; j<word.length; j++) {
            if(word[i] === word[word.length-1-i]) {
                palindrome=true;
            } else {
@@ -84,7 +84,11 @@ function longestPalindrome(sentence) {
 }
 
 function areAnagrams (sentence1, sentence2) {
-    //     return 'yes'
-    // else
-    //     return 'no'
-}
+   var sorted1 = sentence1.split('').sort().join('').trim();
+   var sorted2 = sentence2.split('').sort().join('').trim();
+    if (sorted1 === sorted2) {
+        return 'yes';
+    } else {
+        return 'no';
+    }
+};
