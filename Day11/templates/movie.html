@@ -1,0 +1,10 @@
+<div class="row">
+	<h1> {{ movie.Title }} </h1>
+	<h3> {{ movie.Plot }} </h3>
+	<p> Year: {{ movie.Year }} </p>
+	<p> Rated: {{ movie.Rated }} </p>
+	<p> Runtime: {{ movie.Runtime }} </p>
+</div>
+<div ng-repeat="g in gifArray">
+	<img ng-src="{{ g.images.downsized.url }}">
+</div>
