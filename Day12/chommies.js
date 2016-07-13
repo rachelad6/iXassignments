@@ -53,13 +53,13 @@ app.controller('FeedCtrl', function($scope, $http) {
 	}).then(function(response) {
 		console.log(response);
 		$scope.props.unshift(response.data);
-		// $scope.newPropsValue = "";
-		// $scope.selectedBru = "";
+		$scope.newPropsValue = "";
+		$scope.selectedBru = "";
 	}).catch(function(response) {
 		console.log(response);
 		$scope.errorMessage = response.data.message;
-		// $scope.newPropsValue = "";
-		// $scope.selectedBru = "";
+		$scope.newPropsValue = "";
+		$scope.selectedBru = "";
 	}).finally(function(response) {
 		console.log(response);
 		$scope.isSending = false;
