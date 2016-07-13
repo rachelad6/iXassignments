@@ -1,0 +1,99 @@
+.header {
+	height: 140px;
+	background-color: #1EA3FF;
+	top: 0px;
+	margin-top: -20px;
+	border-bottom: 8px solid #12FFD4;
+}
+
+h1 {
+	color: #12FFD4;
+	font-family: impact;
+	font-size: 60px;
+	margin: 0px;
+	padding-top: 40px;
+}
+
+.mebtn {
+	background-color: #12FFD4;
+	color: #1EA3FF;
+	font-family: impact;
+	font-size: 23px;
+	padding-top: 40px;
+}
+
+.homebtn {
+	background-color: #12FFD4;
+	color: #1EA3FF;
+	font-family: impact;
+	font-size: 23px;
+	padding-top: 40px;
+}
+
+.titlehead {
+	float: left;
+}
+
+.btnhead {
+	float: right;
+}
+
+.propsubmit {
+	margin-top: 40px;
+/*	text-align: center;*/
+}
+
+label {
+	font-size: 23px;
+	font-family: impact;
+	color: #1EA3FF;
+}
+
+.messages {
+	text-align: center;
+	font-family: Impact;
+	color: #1EA3FF;
+}
+
+.messagebox {
+	border: 3px solid #12FFD4;
+	border-top: 0px;
+}
+
+.mymessages {
+	text-align: center;
+	font-family: Impact;
+	color: #1EA3FF;
+	font-size: 28px;
+	margin-top: 40px;
+/*	border: 3px solid #12FFD4;
+	border-top: 0px;*/
+}
+
+.metitle {
+	text-align: center;
+	font-size: 40px;
+}
+
+.to {
+	font-size: 30px;
+}
+
+.text {
+	font-size: 25px;
+	font-family: arial;
+}
+
+.submitbtn {
+	background-color: #12FFD4;
+	color: #1EA3FF;
+	font-family: impact;
+	font-size: 23px;
+	border: 2px solid #1EA3FF;
+	border-radius: 5%;
+}
+
+.isDisabled {
+	opacity: .3;
+	pointer-events: none;
+}

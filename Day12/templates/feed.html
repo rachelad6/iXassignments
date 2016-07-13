@@ -1,0 +1,22 @@
+<div class="header">
+	<div class="titlehead"><h1>Chommies</h1></div>
+	<div class="btnhead"><button class="btn mebtn"><a href="#/me/rachel'">Visit My Page!</a></button></div>
+</div>
+
+<div class="propsubmit" ng-class="{'isDisabled': isSending}">
+	<div ng-show="errorMessage" class="alert alert-danger">{{ errorMessage }}</div>
+	<label>Recipient: <select ng-model="selectedBru" ng-options="bru.id as bru.first_name for bru in brus"></select></label>
+	<label>Message: <input ng-model="newPropsValue"></label>
+	<button class="submitbtn" ng-click="sendProps(selectedBru, newPropsValue)">Send Props</button>
+</div>
+
+<div class="messages">
+<div ng-repeat=" prop in props "> 
+<div class="messagebox">
+	<p class="to"> Dear {{prop.receiver.first_name}} : </p>
+	<p class="text"> {{prop.text}} </p>
+</div>
+</div>
+
+</div>
+
