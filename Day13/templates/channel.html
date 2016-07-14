@@ -1,0 +1,14 @@
+<button class="homebtn"><a class="homebtnn" href="#/">Back to Home</a></button>
+
+<div class="info" ng-class="{'isDisabled': isSending}">
+	<div>{{ errorMessage }}</div>
+	<label>Name: <input ng-model="userName"></label>
+	<label>Message: <input ng-model="newMessage"></label>
+	<button ng-click="sendMessage()">Send</button>
+</div>
+
+<div>
+<div class="messagefeed" ng-repeat="message in messages"> 
+	{{message.text}}: {{message.sender}}
+</div>
+</div>

@@ -1,0 +1,79 @@
+.header {
+	background-image: url("https://cdn-images-1.medium.com/max/2000/1*2YZZ_IvrajYbEeZwk6fLGg.png");
+	background-size: cover;
+	height: 100px;
+	margin-top: -20px;
+}
+
+.tension {
+	font-size: 80px;
+	font-family: impact;
+	color: #3CB371;
+	margin-top: 60px;
+}
+
+.signins {
+	font-size: 30px;
+	font-family: impact;
+	color: #BC3C3C;
+	margin-top: 30px;
+}
+
+.channel_links {
+	font-size: 25px;
+}
+
+.info {
+	font-size: 25px;
+	color: #3CB371;
+	margin-top: 50px;
+}
+
+button {
+	background-color: #3CB371;
+	color: white;
+}
+
+.messagefeed {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.homebtn {
+	font-size: 25px;
+	color: white;
+	margin-top: 25px;
+	background-color: #008080;
+}
+
+.homebtnn {
+	text-decoration: none;
+	color: white;
+}
+
+.logintitle {
+	font-size: 80px;
+	font-family: impact;
+	color: #3CB371;
+	margin-top: 40px;
+}
+.loginform {
+	font-size: 30px;
+	font-family: impact;
+	color: #BC3C3C;
+	margin-top: 30px;
+}
+
+.signuptitle {
+	font-size: 80px;
+	font-family: impact;
+	color: #3CB371;
+	margin-top: 40px;
+}
+
+.signupform {
+	font-size: 30px;
+	font-family: impact;
+	color: #BC3C3C;
+	margin-top: 30px;
+}

@@ -1,0 +1,10 @@
+<h1 class="tension">Tension</h1>
+
+<h2 class="signins"><em>Click Here to <a href="#/login">Login</a> or <a href="#/signup">Sign Up</a> or...</em></h2>
+
+<h2 class="signins"><em>Select a channel below to begin<em></h2>
+
+<div ng-repeat = "c in channels">
+	<a href="#/channel/{{c.name}}" class="channel_links">
+	{{c.name}} : {{c.description}} </a>
+</div>
